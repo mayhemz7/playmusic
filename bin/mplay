@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+/**
+ * PlayMusic CLI - Main entry point
+ * Executable file with shebang for global installation
+ */
+
+const { program } = require('../src/cli');
+
+// Parse command line arguments and run
+program.parse(process.argv);
